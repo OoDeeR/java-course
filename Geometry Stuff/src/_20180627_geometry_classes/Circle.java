@@ -1,3 +1,4 @@
+package _20180627_geometry_classes;
 
 public class Circle {
 	
@@ -5,7 +6,7 @@ public class Circle {
 	
 	public Circle(int x) {
 		this.radius = x;
-		System.out.println("Kreis. R = " + this.radius);
+		
 	}
 
 	public int getRadius() {
@@ -14,6 +15,10 @@ public class Circle {
 
 	public void setRadius(int radius) {
 		this.radius = radius;
+	}
+	
+	public static void print(Circle c) {
+		System.out.println("Kreis. R = " + c.radius);
 	}
 
 }
