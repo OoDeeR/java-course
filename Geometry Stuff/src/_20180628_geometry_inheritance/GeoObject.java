@@ -1,6 +1,6 @@
 package _20180628_geometry_inheritance;
 
-public class GeoObject {
+public abstract class GeoObject {
 
 	private int xCoordinate;
 	private int yCoordinate;
