@@ -1,4 +1,4 @@
-package _20180628_geometry_inheritance;
+package _20180629_polymorphy.geometry;
 import java.util.Random;
 
 public class Rectangle extends GeoObject{
@@ -41,6 +41,11 @@ public class Rectangle extends GeoObject{
 	public void changeDims(int h, int w) {
 		height = h;
 		width = w;
+	}
+	
+	public double getArea() {
+		int area = this.getHeight() * this.getWidth();
+		return area;
 	}
 	
 	public static void print(int x, int y) {

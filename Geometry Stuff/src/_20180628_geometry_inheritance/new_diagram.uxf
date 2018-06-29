@@ -38,7 +38,7 @@ width : int
       <w>260</w>
       <h>100</h>
     </coordinates>
-    <panel_attributes>GeoObjects
+    <panel_attributes>/GeoObjects/
 --
 x : int
 y : int
