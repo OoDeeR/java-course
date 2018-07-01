@@ -18,7 +18,7 @@ public class Circle extends GeoObject{
 	}
 	
 	public double getArea() {
-		double area = this.getRadius() * this.getRadius() * Math.PI;
+		double area = Math.round(this.getRadius() * this.getRadius() * Math.PI);
 		return area;
 	}
 	
@@ -27,7 +27,7 @@ public class Circle extends GeoObject{
 	}
 	
 	public String toString() {
-		return "Kreis (Radius: " + this.getRadius() + "), Coordinates: " + getxCoordinate() + "," + getyCoordinate();
+		return "Kreis\t\t(Radius: " + this.getRadius() + ")\tCoordinates: " + getxCoordinate() + "," + getyCoordinate() + "\tFläche: " + getArea();
 	}
 
 }

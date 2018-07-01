@@ -1,5 +1,4 @@
 package _20180629_polymorphy.geometry;
-import java.util.Random;
 
 public class Rectangle extends GeoObject{
 	
@@ -7,9 +6,7 @@ public class Rectangle extends GeoObject{
 	private int width;
 		
 	public Rectangle() {
-		Random r = new Random();
-		this.height = r.nextInt(20)+1;
-		this.width = r.nextInt(20)+1;
+		
 	}
 	
 	public Rectangle(int h, int w) {
@@ -57,7 +54,7 @@ public class Rectangle extends GeoObject{
 	}
 	
 	public String toString() {
-		return "Rechteck (" + this.getHeight() + " X " + this.getWidth() + "), Coordinates: " + getxCoordinate() + "," + getyCoordinate();
+		return "Rechteck\t(" + this.getHeight() + " X " + this.getWidth() + ") \tCoordinates: " + getxCoordinate() + "," + getyCoordinate() + "\tFläche: " + getArea();
 	}
 	
 
