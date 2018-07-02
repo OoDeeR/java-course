@@ -1,4 +1,4 @@
-package _20180702_interfaces;
+package _20180702_interfaces.geometry;
 
 public class Rectangle extends GeoObject{
 	
