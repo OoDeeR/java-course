@@ -2,33 +2,33 @@ package _20180629_polymorphy.geometry;
 
 public abstract class GeoObject {
 
-	private int xCoordinate;
-	private int yCoordinate;
+	private int x;
+	private int y;
 
 	public void moveObject(int x, int y) {
-		this.setxCoordinate(x);
-		this.setyCoordinate(y);
+		this.setX(x);
+		this.setY(y);
 	}
 
-	public int getxCoordinate() {
-		return xCoordinate;
+	public int getX() {
+		return x;
 	}
 
-	public void setxCoordinate(int xCoordinate) {
-		this.xCoordinate = xCoordinate;
+	public void setX(int x) {
+		this.x = x;
 	}
 	
-	public int getyCoordinate() {
-		return yCoordinate;
+	public int getY() {
+		return y;
 	}
 
-	public void setyCoordinate(int yCoordinate) {
-		this.yCoordinate = yCoordinate;
+	public void setY(int y) {
+		this.y = y;
 	}
 	
 	public void setCoordinates(int x, int y) {
-		this.xCoordinate = x;
-		this.yCoordinate = y;
+		this.x = x;
+		this.y = y;
 	}
 	
 }

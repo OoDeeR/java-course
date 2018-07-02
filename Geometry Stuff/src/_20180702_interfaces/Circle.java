@@ -1,9 +1,8 @@
-package _20180629_polymorphy.geometry;
+package _20180702_interfaces;
 
 public class Circle extends GeoObject{
 	
 	private int radius;
-	
 		
 	public Circle(int x) {
 		this.radius = x;
@@ -28,7 +27,7 @@ public class Circle extends GeoObject{
 	}
 	
 	public String toString() {
-		return "Kreis\t\t(Radius: " + this.getRadius() + ")\tCoordinates: " + getX() + "," + getY() + "\tFlaeche: " + getArea();
+		return "Kreis\t\t(Radius: " + this.getRadius() + ")\tCoordinates: " + getxCoordinate() + "," + getyCoordinate() + "\tFlaeche: " + getArea();
 	}
 
 }

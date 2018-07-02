@@ -1,4 +1,4 @@
-package _20180629_polymorphy.geometry;
+package _20180702_interfaces;
 
 public class Rectangle extends GeoObject{
 	
@@ -54,7 +54,7 @@ public class Rectangle extends GeoObject{
 	}
 	
 	public String toString() {
-		return "Rechteck\t(" + this.getHeight() + " X " + this.getWidth() + ") \tCoordinates: " + getX() + "," + getY() + "\tFlaeche: " + getArea();
+		return "Rechteck\t(" + this.getHeight() + " X " + this.getWidth() + ") \tCoordinates: " + getxCoordinate() + "," + getyCoordinate() + "\tFlaeche: " + getArea();
 	}
 	
 
