@@ -8,9 +8,9 @@ public class TestPersonList {
 	    list.add(new Person("Peter", "Braun"));
 	    list.add(new Person("Michael", "Roth"));
 
-	    for(Person p : list) {
-	        System.out.println(p);
-	    }
+//	    for(Person p : list) {
+//	        System.out.println(p);
+//	    }
 	}
 
 }
