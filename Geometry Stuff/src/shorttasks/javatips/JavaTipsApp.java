@@ -29,7 +29,7 @@ public class JavaTipsApp {
 			arr[i] = new JavaTips(texte[i],themen[i]);
 		}
 		
-		Predicate<JavaTips> containsAll = jT -> jT.text.contains("");			//A3
+		Predicate<JavaTips> containsAll = jT -> true;			//A3
 		Predicate<JavaTips> containsText = jT -> jT.text.contains("Klasse");	//A4
 		Predicate<JavaTips> hasTwoThemes = jT -> jT.themen.length == 2;			//A5
 		Predicate<JavaTips> containsTheme = jT -> Arrays.asList(jT.themen).contains("Klassen");	//A6
@@ -49,10 +49,10 @@ public class JavaTipsApp {
 	}
 		
 	static void printIf (JavaTips[] arr, Predicate<JavaTips> filter){
-		int i = 0;
+		int i = 1;
 		for(JavaTips val : arr) {
 			if(filter.test(val)) {
-				System.out.println("Tipp #" + (i++ +1) + ":");
+				System.out.println("Tipp #" + i++ + ":");
 				System.out.println(val + "\n");
 			}
 		}
