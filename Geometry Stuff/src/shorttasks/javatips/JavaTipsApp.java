@@ -23,12 +23,11 @@ public class JavaTipsApp {
 			{"Klassen", "Methoden", "Überschreiben"},
 			{"Interfaces", "Sichtbarkeiten"}
 		};
+		
 		JavaTips[] arr = new JavaTips[texte.length];
 		for (int i = 0; i < texte.length; i++) {
 			arr[i] = new JavaTips(texte[i],themen[i]);
 		}
-		
-	
 		
 		Predicate<JavaTips> containsAll = jT -> jT.text.contains("");			//A3
 		Predicate<JavaTips> containsText = jT -> jT.text.contains("Klasse");	//A4

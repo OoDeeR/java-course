@@ -23,6 +23,6 @@ public class JavaTips {
 	
 	@Override
 	public String toString() {
-		return "Text: " + text + "\nThemen: " + Arrays.toString(themen).replace('[', ' ').replace(']', ' ');
+		return "Text: " + text + "\nThemen: " + Arrays.toString(themen).replace("[", "").replace("]", "");
 	}
 }
