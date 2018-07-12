@@ -35,7 +35,7 @@ public class TestInterfacesUtilityFunctions {
 //			}
 //		};
 		Supplier<int[]> s1 = () -> new int[] {1,2,3,4};
-		int[] s1 = s1.get();
+		//int[] s1 = s1.get();
 	}
 	
 	public static void TestFunction() {
